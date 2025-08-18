@@ -11,7 +11,7 @@ function solve(town, population, area) {
     console.log("Area must be a positive number!");
   }
 
-  if (town.length > 2 && population > 0 && area > 0) {
+  if (town.length > 2 && population >= 0 && area >= 0) {
     console.log(
       `Town ${town} has population of ${population} and area ${area} square km.`
     );
